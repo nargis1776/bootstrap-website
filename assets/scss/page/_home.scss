@@ -12,3 +12,14 @@
         object-fit: cover;
     }
 }
+
+@media screen and(max-width:600px){
+    .news{
+        .form-inline{
+            .btn{
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}

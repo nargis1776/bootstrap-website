@@ -1,7 +1,19 @@
-.plancard{
-    &-title{
+.plancard {
+    &-title {
         position: relative;
         top: -10px;
         left: 10px;
+    }
+}
+
+.faq {
+    .card {
+        background-color: transparent;
+        &-header {
+            .btn-link {
+                color: $color-white;
+            }
+
+        }
     }
 }
